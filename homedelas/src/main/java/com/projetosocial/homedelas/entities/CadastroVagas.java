@@ -21,21 +21,21 @@ public class CadastroVagas implements Serializable {
 	private String nome_empresa;
 	private String nome_vaga;
 	private String linkedin_empresa;
-	private String descrição_vaga;
+	private String descricao_vaga;
 	private String vaga_link;
 	
 	public CadastroVagas() {
 		super();
 	}
 
-	public CadastroVagas(int id, String nome_empresa, String nome_vaga, String linkedin_empresa, String descrição_vaga,
+	public CadastroVagas(int id, String nome_empresa, String nome_vaga, String linkedin_empresa, String descricao_vaga,
 			String vaga_link) {
 		super();
 		this.id = id;
 		this.nome_empresa = nome_empresa;
 		this.nome_vaga = nome_vaga;
 		this.linkedin_empresa = linkedin_empresa;
-		this.descrição_vaga = descrição_vaga;
+		this.descricao_vaga = descricao_vaga;
 		this.vaga_link = vaga_link;
 	}
 
@@ -71,12 +71,12 @@ public class CadastroVagas implements Serializable {
 		this.linkedin_empresa = linkedin_empresa;
 	}
 
-	public String getDescrição_vaga() {
-		return descrição_vaga;
+	public String getDescricao_vaga() {
+		return descricao_vaga;
 	}
 
-	public void setDescrição_vaga(String descrição_vaga) {
-		this.descrição_vaga = descrição_vaga;
+	public void setDescricao_vaga(String descricao_vaga) {
+		this.descricao_vaga = descricao_vaga;
 	}
 
 	public String getVaga_link() {
@@ -103,7 +103,6 @@ public class CadastroVagas implements Serializable {
 		CadastroVagas other = (CadastroVagas) obj;
 		return id == other.id;
 	}
-	
 	
 	
 }

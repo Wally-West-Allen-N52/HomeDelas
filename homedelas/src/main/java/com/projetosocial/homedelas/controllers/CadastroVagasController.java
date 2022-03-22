@@ -53,7 +53,7 @@ public class CadastroVagasController {
 		
 		updateCadastroVagas.setNome_empresa(cadastroVagasDetails.getNome_empresa());
 		updateCadastroVagas.setNome_vaga(cadastroVagasDetails.getNome_vaga());
-		updateCadastroVagas.setDescrição_vaga(cadastroVagasDetails.getDescrição_vaga());
+		updateCadastroVagas.setDescricao_vaga(cadastroVagasDetails.getDescricao_vaga());
 		updateCadastroVagas.setLinkedin_empresa(cadastroVagasDetails.getLinkedin_empresa());
 		updateCadastroVagas.setVaga_link(cadastroVagasDetails.getVaga_link());
 		
